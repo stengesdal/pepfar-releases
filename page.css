@@ -27,6 +27,11 @@ h1 {
   padding: 0;
 }
 
+h2 {
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
 button.btn-primary, button.btn-primary:hover {
   background: #8DBF67;
   border-color: #8DBF67;
@@ -41,4 +46,8 @@ button.btn-primary, button.btn-primary:hover {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.inner.top {
+  margin-bottom: 0;
 }
