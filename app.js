@@ -2,8 +2,10 @@ angular.module('PEPFAR.releases', []);
 
 angular.module('PEPFAR.releases').controller('appController', appController);
 function appController(releaseService) {
+    var vm = this;
+
     releaseService.getReleases().then(function (releases) {
-        console.log(releases);
+        vm.releases = releases;
     });
 }
 
@@ -14,10 +16,10 @@ function releaseService ($http) {
     };
 
     function getReleases () {
-        return loadReleases()
-            .then(function (releases) {
-                return loadManifests(releases);
-            });
+        return loadReleases();
+            //.then(function (releases) {
+            //    return loadManifests(releases);
+            //});
     }
 
     function loadReleases () {
