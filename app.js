@@ -33,7 +33,7 @@ function releaseService ($http) {
         var promises = [];
 
         releases.forEach(function (release) {
-            promises.push($http(release.manifest).then(function (manifest) {
+            promises.push($http.get(release.manifest).then(function (manifest) {
                 return manifest.data;
             }));
         });
