@@ -1,0 +1,14 @@
+[
+    {   
+        "name": "PEPFAR data approvals",
+        "repo": "data-approval-pepfar",
+        "url": "https://github.com/dhis2/pepfar-approvals-release/raw/master/approvals.zip",
+        "manifest": "https://raw.githubusercontent.com/dhis2/data-approval-pepfar/master/src/main/manifest.webapp"
+    },
+    {
+        "name": "PEPFAR User management",
+        "repo": "user-management-pepfar",
+        "url": "https://github.com/dhis2/pepfar-releases/raw/master/user-management/user-management.zip",
+        "manifest": "https://raw.githubusercontent.com/dhis2/user-management-pepfar/master/src/manifest.webapp"
+    }
+]

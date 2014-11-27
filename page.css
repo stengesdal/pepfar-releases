@@ -1,0 +1,41 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+header, 
+section {
+  width: 100%;
+}
+
+header {
+  background-color: #E85248;
+  color: #FFFFFF;
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+button.btn-primary, button.btn-primary:hover {
+  background: #8DBF67;
+  border-color: #8DBF67;
+  width: 100%;
+  font-size: 3em;
+  font-weight: 100;
+}
+
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
