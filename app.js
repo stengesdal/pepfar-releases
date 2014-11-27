@@ -17,9 +17,6 @@ function releaseService ($http) {
 
     function getReleases () {
         return loadReleases();
-            //.then(function (releases) {
-            //    return loadManifests(releases);
-            //});
     }
 
     function loadReleases () {
@@ -28,24 +25,6 @@ function releaseService ($http) {
                 return releases.data;
             }
             return [];
-        });
-    }
-
-    function loadManifests (releases) {
-        var promises = [];
-
-        releases.forEach(function (release) {
-            promises.push($http.get(release.manifest).then(function (manifest) {
-                return manifest.data;
-            }));
-        });
-
-        return $q.all(promises).then(function (manifests) {
-            manifests.forEach(function (manifest, index) {
-               releases[index].manifestData = manifest; 
-            });
-
-            return releases;
         });
     }
 }
