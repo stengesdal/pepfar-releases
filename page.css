@@ -12,7 +12,7 @@ section {
 }
 
 header {
-  background-color: #E85248;
+  background-color: #276696;
   color: #FFFFFF;
   display: block;
   padding: 20px;
@@ -30,12 +30,15 @@ h1 {
 button.btn-primary, button.btn-primary:hover {
   background: #8DBF67;
   border-color: #8DBF67;
-  width: 100%;
+  display: block;
   font-size: 3em;
   font-weight: 100;
+  margin: 0 auto;
+  width: 95%;
 }
 
 .inner {
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
