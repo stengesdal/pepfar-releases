@@ -51,3 +51,10 @@ button.btn-primary, button.btn-primary:hover {
 .inner.top {
   margin-bottom: 0;
 }
+
+.stable-link {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
