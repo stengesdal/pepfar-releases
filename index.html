@@ -16,9 +16,10 @@
       <div class="inner well">
         <div>
           <h2 ng-bind="release.name"></h2>
+          <version ng-show="release.version" version="release.version"></version>
           <a ng-href="{{release.repo}}"><i class="fa fa-3x fa-github"></i></a>
           <a ng-href="{{release.url}}">
-            <button class="btn btn-primary"><i class="fa fa-download fa-lg"></i>&nbsp;Download</button>
+            <button class="btn btn-primary"><i class="fa fa-download fa-lg"></i>&nbsp;Download <span ng-show="release.download_count >= 0">(Downloaded {{release.download_count}} times)</span></button>
           </a>
           <a class="stable-link" ng-if="release.stable" ng-href="{{release.stable}}">
             Grab the latest version that was concidered stable here. (Note, this might be an older version of the app)

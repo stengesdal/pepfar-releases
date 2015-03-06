@@ -1,18 +1,19 @@
 [
     {   
         "name": "PEPFAR data approvals",
+        "repoName": "data-approval-pepfar",
         "repo": "//github.com/dhis2/data-approval-pepfar",
         "url": "//github.com/dhis2/pepfar-approvals-release/raw/master/approvals.zip"
     },
     {
         "name": "PEPFAR User management",
+        "repoName": "user-management-pepfar",
         "repo": "//github.com/dhis2/user-management-pepfar",
-        "url": "//github.com/dhis2/pepfar-releases/raw/master/user-management/user-management.zip",
         "stable": "//github.com/dhis2/pepfar-releases/blob/7cb730f7950771f7d13feecf236d66c9e6909ca6/user-management/user-management.zip?raw=true"
     },
     {
         "name": "DATIM Dedupe",
-        "repo": "//github.com/dhis2/datim-dedupe",
-        "url": "//github.com/dhis2/pepfar-releases/raw/master/datim-dedupe/datim-dedupe.zip"
+        "repoName": "datim-dedupe",
+        "repo": "//github.com/dhis2/datim-dedupe"
     }
 ]

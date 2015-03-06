@@ -58,3 +58,10 @@ button.btn-primary, button.btn-primary:hover {
   margin: 0 auto;
   padding: 10px 0;
 }
+
+.version {
+  color: #AAAAAA;
+  display: inline-block;
+  font-size: 1.4em;
+  margin: 0 10px;
+}
