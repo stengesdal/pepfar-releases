@@ -21,9 +21,6 @@
           <a ng-href="{{release.url}}">
             <button class="btn btn-primary"><i class="fa fa-download fa-lg"></i>&nbsp;Download <span ng-show="release.download_count >= 0">(Downloaded {{release.download_count}} times)</span></button>
           </a>
-          <a class="stable-link" ng-if="release.stable" ng-href="{{release.stable}}">
-            Grab the latest version that was concidered stable here. (Note, this might be an older version of the app)
-          </a>
         </div>
       </div>
     </section>
